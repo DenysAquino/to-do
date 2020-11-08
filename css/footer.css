@@ -1,0 +1,12 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    background-color: #152f3e;
+    width: 100%;
+}
+
+.rodape h3 {
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 700;
+}

@@ -1,0 +1,42 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 90%;
+}
+
+.cabecalho h1 {
+    text-align: start;
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    background: #13232c;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    
+}
+
+.menu ul > li{
+    font-size: 2rem;
+    color: aliceblue;
+}
+

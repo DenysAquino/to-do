@@ -1,0 +1,129 @@
+.geral-lista {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 2rem auto;
+
+}
+
+#add-produto {
+    width: 40%;
+    max-width: 350px;
+}
+
+#add-quantidade {
+    width: 20%;
+    max-width: 90px;
+}
+
+#add-tipo {
+    max-width: 20%;
+}
+
+.btn-adicionar {
+    text-align: center;
+    width: 10%;
+}
+
+.adicionar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: green;
+    transition: .5s ease-out background, color;
+
+}
+
+.adicionar:hover {
+    cursor: pointer;
+    background-color: rgb(0, 70, 0);
+    color: aliceblue;
+}
+
+
+.delete-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem; 
+    margin: 0 auto;   
+    background-color: #bd2323;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 1rem;
+    transition: .5s ease-in-out background;
+    cursor: pointer;
+}
+
+.delete-item:hover {
+    background-color: #8b2d2dce;
+}
+
+.lista-produtos {
+
+    width: 100%;  
+    position: relative;  
+
+}
+
+.produtos-list td {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.mensagem-erro {
+    display: none;
+    flex-direction: column;
+    font-size: 2rem;
+    color: aliceblue;
+    position: fixed;
+    z-index: 1;
+    background-color: #8b2d2dce;
+    width: 80%;
+    height: 60px;
+    border: solid black 2px;
+    border-radius: 4px;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    
+    
+}
+.mensagem-erro p {
+    text-align: center;
+}
+
+.fecha-paragrafo{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.fecha-mensagem {
+    width: 2rem;
+    height: 2rem;
+    background:  #ac2a2a;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 4px 4px;
+    border: 1px  solid #c71a1a;
+}
+
+@media (min-width:  768px) {
+    .input-btn{
+        justify-content: space-evenly;
+    }
+}

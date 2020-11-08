@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamburguer.css">
+    <link rel="stylesheet" href="css/header.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <header>
+        <div class="box cabecalho">
+            <div>
+                <h1>To-do List</h1>
+            </div>
+         
+            <div class="hamburguer">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>Lista de compras</li>
+                <li>Lista de convidados</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="box compras">
+            <h2>Lista de Compras</h2>
+            <div class="geral-lista">
+                <div class="input-btn">
+                    <input type="text" id="add-produto" placeholder="Digite o produto">
+                    <input type="number" id="add-quantidade" placeholder="Qtd" >
+                    <select name="tipo" id="add-tipo">
+                        <option value="Und">UND</option>
+                        <option value="KG">KG</option>
+                        <option value="saco">SC</option>
+                        <option value="PCT">PCT</option>
+                    </select>
+                    <div class="btn-adicionar">
+                        <button class="adicionar">+</button>
+                    </div>
+                </div>
+
+                <div class="mensagem-erro">
+                    <p class="fecha-paragrafo"><span class="fecha-mensagem">x</span></p>
+                    <p class="p-erro">Valor inválido! </p>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produtos</th>
+                            <th>Qtd</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody class="lista-produtos"></tbody>
+                </table>
+    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+            <h3>Desenvolvido por Denys.Dev</h3>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="/js/listaDeCompras.js"></script>
+    <script type="text/javascript" src="/js/abrirMenu.js"></script>
+    <script type = "text/javascript" src="/js/erros.js"></script>
+    <script type = "text/javascript" src="/js/removeProduto.js"></script>
+
+</body>
+</html>
