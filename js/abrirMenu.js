@@ -1,13 +1,13 @@
 const hamburguer = document.querySelector('.hamburguer');
-const menuUl = document.querySelector('.menu');
+let menu = document.querySelector('.menu');
+
 
 
 hamburguer.addEventListener('click', () => {
 
-    if(menuUl.style.visibility == 'visible'){
-        menuUl.style.visibility = "hidden" ;
+    if(menu.style.transform == 'translateY(0%)'){
+        menu.style.transform = 'translateY(-100%)';
     }else {
-        menuUl.style.visibility = 'visible';
+        menu.style.transform = 'translateY(0%)';
     }
-
 })

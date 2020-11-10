@@ -103,3 +103,14 @@ footer {
  input:focus {
     outline: 0;
 }
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    transition: font-size .3s ease-out;
+}
+
+a:hover {
+    font-size: larger;
+}

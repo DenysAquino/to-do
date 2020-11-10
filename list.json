@@ -1,0 +1,29 @@
+{
+    "list": [
+        {
+            "Name": "Arroz",
+            "Quantidade": "10"
+        },
+        {
+            "Name": "Feijão",
+            "Quantidade": "10"
+        },
+        {
+            "Name": "Pão",
+            "Quantidade": "10"
+        },
+        {
+            "Name": "Detergente",
+            "Quantidade": "10"
+        },
+        {
+            "Name": "Batata",
+            "Quantidade": "10"
+        },
+        {
+            "Name": "Tomate",
+            "Quantidade": "10"
+            
+        }
+    ]
+}

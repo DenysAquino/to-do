@@ -7,6 +7,7 @@
     height: 25px;
     position: relative;
     cursor: pointer;
+    z-index: 2;
 }
 
 .line-1 {

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon-icon.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/hamburguer.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/header.css">
-
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hamburguer.css">
+    <link rel="stylesheet" href="css/listaDeCompras/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/listaDeCompras/mensagemDeErros.css">
     <title>Lista de Compras</title>
 </head>
 <body>
@@ -28,8 +28,8 @@
         </div>
         <nav class="menu">
             <ul>
-                <li>Lista de compras</li>
-                <li>Lista de convidados</li>
+                <li><a href="index.html">Lista de compras</a></li>
+                <li><a href="listadeconvidados.html">Lista de convidados</a></li>
             </ul>
         </nav>
     </header>
@@ -51,10 +51,7 @@
                     </div>
                 </div>
 
-                <div class="mensagem-erro">
-                    <p class="fecha-paragrafo"><span class="fecha-mensagem">x</span></p>
-                    <p class="p-erro">Valor inválido! </p>
-                </div>
+                
 
                 <table>
                     <thead>
@@ -65,7 +62,13 @@
                         </tr>
                     </thead>
                     <tbody class="lista-produtos"></tbody>
+                    <div class="mensagem-erro">
+                        <p class="p-erro">Valor inválido! </p>
+                        <p class="fecha-paragrafo"><span class="fecha-mensagem">x</span></p>
+                    </div>
                 </table>
+
+                <button class="save-list">Salvar Lista</button>
     
             </div>
         </section>
@@ -76,10 +79,10 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="/js/listaDeCompras.js"></script>
-    <script type="text/javascript" src="/js/abrirMenu.js"></script>
-    <script type = "text/javascript" src="/js/erros.js"></script>
-    <script type = "text/javascript" src="/js/removeProduto.js"></script>
+    <script type="text/javascript" src="js/listaDeCompras/listaDeCompras.js"></script>
+    <script type="text/javascript" src="js/abrirMenu.js"></script>
+    <script type = "text/javascript" src="js/listaDeCompras/erros.js"></script>
+    <script type = "text/javascript" src="js/listaDeCompras/removeProduto.js"></script>
 
 </body>
 </html>
