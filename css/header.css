@@ -21,8 +21,8 @@
     height: 50vh;
     background: #13232c;
     z-index: 1;
-    transform: translateY(-100%);
-    transition: transform .5s ease-out;
+    transform: translateY(-100vh);
+    transition: transform .7s ease-out;
 }
 
 .menu ul {

@@ -1,0 +1,58 @@
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-convidados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#input-convidado {
+    width: 100%;
+    max-width: 250px;
+    font-size: 1.6rem;
+}
+
+.btn-adicionar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: green;
+    transition: background-color .5s ease-out ;
+    cursor: pointer;
+}
+
+.btn-adicionar:hover {
+    cursor: pointer;
+    background-color: rgb(0, 70, 0);
+    color: aliceblue;
+}
+
+.lista-convidados {
+    width: 100%;
+}
+
+.convidado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.count-convidado {
+    width: 10%;
+    text-align: center;
+}
+
+.name-convidado {
+    width: 90%;
+}

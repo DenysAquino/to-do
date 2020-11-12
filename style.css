@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 input {
-
     border: 4px #152f3e solid;
     border-top: none;
     border-left: none;
@@ -51,7 +50,14 @@ input {
     background-color: #00a7c4;
     font-weight: 700;   
     text-align: center; 
-    
+    outline: 0; 
+}
+
+input:focus {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom:  #191919 4px solid;
 }
 
 select{
@@ -100,10 +106,6 @@ footer {
     transition: 1s;
 }
 
- input:focus {
-    outline: 0;
-}
-
 a{
     text-decoration: none;
     cursor: pointer;
@@ -113,4 +115,6 @@ a{
 
 a:hover {
     font-size: larger;
+    text-decoration: underline;
+    color: #00a7c4;
 }

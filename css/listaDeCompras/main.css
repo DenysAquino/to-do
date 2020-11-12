@@ -15,11 +15,13 @@
 #add-produto {
     width: 40%;
     max-width: 350px;
+
 }
 
 #add-quantidade {
     width: 20%;
     max-width: 90px;
+
 }
 
 #add-tipo {
@@ -39,7 +41,6 @@
     color: aliceblue;
     background-color: green;
     transition: .5s ease-out background, color;
-
 }
 
 .adicionar:hover {
@@ -47,7 +48,6 @@
     background-color: rgb(0, 70, 0);
     color: aliceblue;
 }
-
 
 .delete-item {
     display: flex;
@@ -79,6 +79,10 @@
 .produtos-list td {
     text-align: center;
     margin: 1rem auto;
+}
+
+.total {
+    margin: 3rem auto;
 }
 
 .save-list {

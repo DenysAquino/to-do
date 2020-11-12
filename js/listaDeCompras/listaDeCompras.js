@@ -6,10 +6,9 @@ let listaDeProdutos = document.querySelector('.lista-produtos')
 const btnAdicionar = document.querySelector('.adicionar')
 btnAdicionar.addEventListener('click', addProduto) 
 
-let produtosRecebidos = [''];
+let produtosRecebidos = [];
 
 function criaProduto () {
-
 
     if(quantidadeDigitada.value == '' 
         && produtoDigitado.value == '')return exibeMensagemErro(erros.produtoEQuantidade)
@@ -36,34 +35,29 @@ function criaProduto () {
     produtoTr.appendChild(bottonTd)
     bottonTd.classList.add('delete-item')
     bottonTd.textContent = 'x'
-
 } 
 
 function addProduto (produto, quantidade, tipo) {
 
     criaProduto()
 
-    if(produtoDigitado.value == ''){
+    if(produtoDigitado.value != '' || quantidadeDigitada.value != ''){
         produtoDigitado.value = '' 
         quantidadeDigitada.value = ''
+        produtoDigitado.focus();
         return
-    }else if(quantidadeDigitada.value == ''){
-        produtoDigitado.value = '' 
-        quantidadeDigitada.value = ''
-        return
-    }else {
+    }else{
         for(let i = 1; i <= produtosRecebidos.length; i++){
             produto = produtoDigitado.value
             quantidade = quantidadeDigitada.value
             tipo = tipoDigitado.value
             
             let produtos = [produto + ' ' + quantidade + ' ' + tipo ]
-            produtoDigitado.value = '' 
-            quantidadeDigitada.value = ''
-            produtoDigitado.focus();
 
             return produtosRecebidos.push(produtos)
         }
+        
     }
+    
 }   
 
