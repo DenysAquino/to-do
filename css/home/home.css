@@ -1,5 +1,5 @@
 
-.conteudo-principal{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .text-home {
-    width: 50%;
+    margin: 0 auto;
     color: aliceblue;
 }
 
@@ -23,9 +23,8 @@
 }
 
 .imagem-home {
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    display: block;
+    float: left;
 }
 
 .imagem-home img {
@@ -34,16 +33,9 @@
 
 
 @media (max-width: 600px) {
-    .conteudo-principal{
-        flex-direction: column;
-    }
+
     .text-home h2 {
         font-size: 3rem;
-        text-align: right;
-    }
-    .imagem-home{
-        width: 100%;
-        justify-content: left;
     }
     .imagem-home img {
         width: 100px;

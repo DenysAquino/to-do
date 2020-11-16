@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background-color: #00a7c4;
-    color: black;
+    color: aliceblue;
     font-size: 2rem;
 }
 
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 2rem 0;
     text-align: center;
     font-size: 2.5rem;
+    color: #152f3e;
 }
 
 input {
@@ -46,7 +47,7 @@ input {
     border-radius: 4px;
     padding: .5rem;
     margin: .5rem .5rem;
-    color: #191919;
+    color: aliceblue;
     background-color: #00a7c4;
     font-weight: 700;   
     text-align: center; 
@@ -57,7 +58,7 @@ input:focus {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom:  #191919 4px solid;
+    border-bottom:  aliceblue 4px solid;
 }
 
 select{

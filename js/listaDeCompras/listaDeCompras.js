@@ -1,12 +1,11 @@
-let produtoDigitado = document.querySelector('#add-produto')
-let quantidadeDigitada = document.querySelector('#add-quantidade')
-let tipoDigitado = document.querySelector('#add-tipo')
-let listaDeProdutos = document.querySelector('.lista-produtos')
+let produtoDigitado = document.querySelector('#add-produto');
+let quantidadeDigitada = document.querySelector('#add-quantidade');
+let tipoDigitado = document.querySelector('#add-tipo');
+let listaDeProdutos = document.querySelector('.lista-produtos');
+let total = document.querySelector('.total');
 
-const btnAdicionar = document.querySelector('.adicionar')
-btnAdicionar.addEventListener('click', addProduto) 
-
-let produtosRecebidos = [];
+const btnAdicionar = document.querySelector('.adicionar');
+btnAdicionar.addEventListener('click', addProduto); 
 
 function criaProduto () {
 
@@ -17,7 +16,6 @@ function criaProduto () {
 
     if(quantidadeDigitada.value == ''
         || quantidadeDigitada.value < 0)return exibeMensagemErro(erros.quantidade)
-    
 
     let produtoTr = document.createElement('tr')
     produtoTr.classList.add('produtos-list')
@@ -35,29 +33,23 @@ function criaProduto () {
     produtoTr.appendChild(bottonTd)
     bottonTd.classList.add('delete-item')
     bottonTd.textContent = 'x'
+
 } 
 
-function addProduto (produto, quantidade, tipo) {
-
-    criaProduto()
-
-    if(produtoDigitado.value != '' || quantidadeDigitada.value != ''){
-        produtoDigitado.value = '' 
-        quantidadeDigitada.value = ''
-        produtoDigitado.focus();
-        return
-    }else{
-        for(let i = 1; i <= produtosRecebidos.length; i++){
-            produto = produtoDigitado.value
-            quantidade = quantidadeDigitada.value
-            tipo = tipoDigitado.value
-            
-            let produtos = [produto + ' ' + quantidade + ' ' + tipo ]
-
-            return produtosRecebidos.push(produtos)
-        }
-        
-    }
+function addProduto () {
     
-}   
+    criaProduto();
 
+    let produtosList = document.querySelectorAll('.produtos-list');
+    
+    for(let i = 0; i < produtosList.length; i++){
+        if(produtoDigitado.value !== '' || quantidadeDigitada.value !== ''){
+
+        total.innerHTML = `Total: ${produtosList.length}`;
+
+        produtoDigitado.value = '' ;
+        quantidadeDigitada.value = '';
+        produtoDigitado.focus();
+        } 
+    }
+}   

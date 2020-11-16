@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,10 @@
     <link rel="stylesheet" href="css/hamburguer.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/listaDeCompras/main.css">
-    <link rel="stylesheet" href="css/listaDeCompras/mensagemDeErros.css">
+    <link rel="stylesheet" href="css/mensagemDeErros.css">
     <title>Lista de Compras</title>
 </head>
+
 <body>
     <header>
 
@@ -21,8 +23,8 @@
             <h2>Lista de Compras</h2>
             <div class="geral-lista">
                 <div class="input-btn">
-                    <input type="text" id="add-produto" placeholder="Digite o produto">
-                    <input type="number" id="add-quantidade" placeholder="Qtd" >
+                    <input type="text" id="add-produto" placeholder="Digite o produto" maxlength="30">
+                    <input type="number" id="add-quantidade" placeholder="Qtd">
                     <select name="tipo" id="add-tipo">
                         <option value="Und">UND</option>
                         <option value="KG">KG</option>
@@ -33,7 +35,6 @@
                         <button class="adicionar">+</button>
                     </div>
                 </div>
-
                 <table>
                     <thead>
                         <tr>
@@ -49,22 +50,22 @@
                     </div>
                 </table>
 
-                <p class="total">Total</p>
+                <p class="total">Total: </p>
                 <button class="save-list">Salvar Lista</button>
-    
             </div>
         </section>
     </main>
     <footer>
-       
+
     </footer>
 
     <script type="text/javascript" src="js/listaDeCompras/listaDeCompras.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/abrirMenu.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
-    <script type = "text/javascript" src="js/listaDeCompras/erros.js"></script>
-    <script type = "text/javascript" src="js/listaDeCompras/removeProduto.js"></script>
-
+    <script type="text/javascript" src="js/erros.js"></script>
+    <script type="text/javascript" src="js/listaDeCompras/removeProduto.js"></script>
 </body>
+
 </html>
+

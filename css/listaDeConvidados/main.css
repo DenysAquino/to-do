@@ -38,21 +38,68 @@
 }
 
 .lista-convidados {
-    width: 100%;
+    width: 90%;
 }
 
 .convidado {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin: 1rem 0;
 }
 
 .count-convidado {
-    width: 10%;
-    text-align: center;
+    width: 25%;
 }
 
 .name-convidado {
-    width: 90%;
+    width: 50%;
+    text-align: left;
+}
+
+.delete-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem; 
+    background-color: #bd2323;
+    border-radius: 50%;
+    color: aliceblue;
+    transition: .5s ease-in-out background;
+    cursor: pointer;
+}
+
+.delete-item:hover {
+    background-color: #8b2d2dce;
+}
+
+.total {
+    margin: 3rem auto;
+}
+
+.save-list {
+    margin: 2rem auto;
+    width: 100px; 
+    height: 30px; 
+    background: #ac2a2a;
+    color: aliceblue;
+    border-radius: 4px;
+    border: none;
+    transition: transform .3s ease-in-out, background-color .3s ease-in-out;
+    outline: 0;
+    cursor: pointer;
+}
+
+.save-list:hover {
+    transform: scaleY(.97);
+    background: #833131;
+}
+
+@media (max-width: 600px){
+    .count-convidado {
+        width: 10%;
+    }
 }

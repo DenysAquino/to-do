@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/hamburguer.css">
     <link rel="stylesheet" href="css/listaDeConvidados/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mensagemDeErros.css">
     <title>Lista de Compras</title>
 </head>
 <body>
@@ -17,21 +18,23 @@
     </header>
     <main>
         <section class="box lista">
-
             <h2>Lista de convidados</h2>
             <div class="add-convidados">
-                <label for="input-convidado" class="label-convidado">Convidado:</label>
-                <input id="input-convidado" type="text" placeholder="Nome do convidado">
+                <label for="input-convidado" class="label-convidado"></label>
+                <input id="input-convidado" type="text" placeholder="Nome do convidado...">
                 <button class="btn-adicionar">+</button>
             </div>
             <h2>Convidados</h2>
             <div class="lista-convidados">
                 <div class="convidado">
-                    <p>1</p>
-                    <p>José Maria das Graças</p>
                 </div>
             </div>
-
+            <div class="mensagem-erro">
+                <p class="p-erro">Valor inválido! </p>
+                <p class="fecha-paragrafo"><span class="fecha-mensagem">x</span></p>
+            </div>
+            <p class="total">Total</p>
+            <button class="save-list">Salvar Lista</button>
         </section>
     </main>
     <footer>
@@ -42,6 +45,7 @@
     <script type="text/javascript" src="js/abrirMenu.js"></script>
     <script type = "text/javascript" src="js/listaDeConvidados/listaDeConvidados.js"></script>
     <script type = "text/javascript" src="js/footer.js"></script>
+    <script type = "text/javascript" src="js/erros.js"></script>
 
 </body>
 </html>

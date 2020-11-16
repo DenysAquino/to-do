@@ -4,15 +4,18 @@ const paragrafoErro = document.querySelector('.p-erro')
 const erros = {
     produto: 'Item digitado inválido!',
     quantidade: 'Quantidade digitada inválida!',
-    produtoEQuantidade: 'Produto e quantidade Inválidos!'
+    produtoEQuantidade: 'Produto e quantidade Inválidos!',
+    convidado: 'Nome de convidado invállido!'
 }
+
+
 
 function exibeMensagemErro(erros) {
     mensagemErro.style.display = 'flex'
     paragrafoErro.textContent = erros
     setTimeout(() => {
         mensagemErro.style.display = 'none'
-    }, 2000);
+    }, 3000);
     
     console.log('Erro valor digitado inválido!')
 }
