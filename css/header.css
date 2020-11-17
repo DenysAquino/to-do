@@ -9,6 +9,7 @@
 
 .cabecalho h1 {
     color: aliceblue;
+    cursor: pointer;
 }
 
 .menu {
@@ -41,3 +42,20 @@
     color: aliceblue;
 }
 
+.fadeOut {
+    opacity: 0;
+    transition: 1s;
+}
+
+.animation-menu{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    transition: font-size .3s ease-out;
+}
+
+.animation-menu:hover {
+    font-size: larger;
+    text-decoration: underline;
+    color: #00a7c4;
+}

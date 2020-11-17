@@ -17,9 +17,9 @@ function criaHeader() {
     </div>
     <nav class="menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="listaDeCompras.html">Lista de compras</a></li>
-            <li><a href="listadeconvidados.html">Lista de convidados</a></li>
+            <li><a href="index.html" class="animation-menu">Home</a></li>
+            <li><a href="listaDeCompras.html" class="animation-menu">Lista de compras</a></li>
+            <li><a href="listadeconvidados.html" class="animation-menu">Lista de convidados</a></li>
         </ul>
     </nav>
     `

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon-icon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hamburguer.css">
     <link rel="stylesheet" href="css/listaDeConvidados/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mensagemDeErros.css">
-    <title>Lista de Compras</title>
+    <title>Lista de Convidados</title>
 </head>
 <body>
     <header>
@@ -21,19 +21,18 @@
             <h2>Lista de convidados</h2>
             <div class="add-convidados">
                 <label for="input-convidado" class="label-convidado"></label>
-                <input id="input-convidado" type="text" placeholder="Nome do convidado...">
+                <input id="input-convidado" type="text" placeholder="Nome do convidado..." maxlength="30">
                 <button class="btn-adicionar">+</button>
             </div>
             <h2>Convidados</h2>
-            <div class="lista-convidados">
-                <div class="convidado">
-                </div>
-            </div>
+
+            <div class="lista-convidados"></div>
+
             <div class="mensagem-erro">
                 <p class="p-erro">Valor inválido! </p>
                 <p class="fecha-paragrafo"><span class="fecha-mensagem">x</span></p>
             </div>
-            <p class="total">Total</p>
+            <p class="total">Total: </p>
             <button class="save-list">Salvar Lista</button>
         </section>
     </main>
@@ -46,6 +45,7 @@
     <script type = "text/javascript" src="js/listaDeConvidados/listaDeConvidados.js"></script>
     <script type = "text/javascript" src="js/footer.js"></script>
     <script type = "text/javascript" src="js/erros.js"></script>
+    <script type = "text/javascript" src="js/listaDeConvidados/removerProdutos.js"></script>
 
 </body>
 </html>
