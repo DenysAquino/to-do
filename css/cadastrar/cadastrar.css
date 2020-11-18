@@ -26,6 +26,7 @@ main {
 }
 
 .container a{
+    text-decoration: none;
     color: aliceblue;
 
 }
@@ -35,7 +36,7 @@ main {
     color: #00a7c4;
 }
 
-#input-password, #input-email, #botao-enviar {
+#input-cadastro-name, #input-cadastro-password, #input-cadastro-email, #botao-cadastrar {
     background-color: aliceblue;
     width: 90%;
     max-width: 80%;
@@ -45,7 +46,7 @@ main {
     border: none;
 }
 
-#botao-enviar:hover {
+#botao-cadastrar:hover {
     background-color:#ac2a2a;
     color: aliceblue;
     cursor: pointer;
@@ -57,5 +58,4 @@ main {
     align-items: center;
     flex-flow: column wrap;
     font-size: 1.5rem;
-    line-height: 2;
 }

@@ -4,7 +4,8 @@ function criaFooter (){
     componenteFooter.innerHTML = `
     <footer>
         <div class="rodape">
-            <h3>Desenvolvido por Denys.Dev</h3>
+            <h3>Desenvolvido por Denys.Dev 	
+            &#169;</h3>
         </div>
     </footer>
     `

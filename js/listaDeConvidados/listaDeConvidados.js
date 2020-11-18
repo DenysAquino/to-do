@@ -25,7 +25,12 @@ botaoAdicionar.addEventListener('click', ()=>{
     let convidados = document.querySelectorAll('.convidado');
 
     pCount.classList.add('count-convidado');
-    pCount.innerHTML = convidados.length;
+    // pCount.innerHTML = convidados.length;
+
+    for(let i = 0; i < convidados.length; i++){
+        console.log(convidados)
+        pCount.innerHTML = convidados.length;
+    }
     
     bottonDelete.classList.add('delete-item');
     bottonDelete.textContent = 'x';

@@ -6,7 +6,7 @@ function criaHeader() {
     componenteHeader.innerHTML = `
     <div class="box cabecalho">
         <div>
-            <h1>Your Tasks</h1>
+            <h1><a href="index.html">Your Tasks</a></h1>
         </div>
     
         <div class="hamburguer">
@@ -17,9 +17,14 @@ function criaHeader() {
     </div>
     <nav class="menu">
         <ul>
-            <li><a href="index.html" class="animation-menu">Home</a></li>
+            <li class="link-login-home">
+                <a href="index.html" class="animation-menu">Home</a>| 
+                <a href="login.html" class="animation-menu">Login</a>| 
+                <a href="#" class="animation-menu">Help</a>
+            </li>
             <li><a href="listaDeCompras.html" class="animation-menu">Lista de compras</a></li>
             <li><a href="listadeconvidados.html" class="animation-menu">Lista de convidados</a></li>
+            <li><a href="listaDeEstudos.html" class="animation-menu">Lista de estudos</a></li>
         </ul>
     </nav>
     `

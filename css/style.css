@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 
-html , body{
-    width: 100%;
+html{
     height: 100%;
-    background: linear-gradient(#97aeb3, #00a7c4);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(#97aeb3, #00a7c4) no-repeat;
     color: aliceblue;
     font-size: 2rem;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 :root {
@@ -28,7 +37,6 @@ header {
 }
 
 main {
-    margin-bottom: 7rem;
     width: 100%;
 
 }

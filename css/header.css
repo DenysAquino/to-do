@@ -12,6 +12,11 @@
     cursor: pointer;
 }
 
+.cabecalho a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -42,6 +47,18 @@
     color: aliceblue;
 }
 
+.link-login-home{
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.link-login-home a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
 .fadeOut {
     opacity: 0;
     transition: 1s;
@@ -55,7 +72,6 @@
 }
 
 .animation-menu:hover {
-    font-size: larger;
     text-decoration: underline;
     color: #00a7c4;
 }
