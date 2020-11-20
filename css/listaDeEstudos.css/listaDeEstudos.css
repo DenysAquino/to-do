@@ -1,0 +1,50 @@
+.inputs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+input[type="submit"]{
+    background-color: green;
+    border: none;
+    transition: background-color .5s ease-in-out;
+    font-size: 2rem;
+    width: 3rem;
+}
+
+input[type="submit"]:hover {
+    background-color:  #833131;
+    font-size: 2rem;
+    
+}
+
+#input-text {
+    width: 50%;
+}
+
+.lista-estudos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.elements-created{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0 ;
+}
+
+.elements-created-p {
+    width: 50%;
+    text-align: left;
+}
+
+/* .elements-created-checkbox {
+    width: 30%;
+} */

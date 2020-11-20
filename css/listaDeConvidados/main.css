@@ -98,7 +98,6 @@
 .save-list:hover {
     transform: scaleY(.97);
     background: #833131;
-    border: none;
 }
 
 @media (max-width: 600px){

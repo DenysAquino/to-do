@@ -42,15 +42,15 @@
      
 }
 
-.menu ul > li{
+.menu ul li{
     display: flex;
     justify-content: space-around;
-    max-width: 60%;
+    width: 80%;
     font-size: 2rem;
     color: aliceblue;
 }
 
-.menu ul > li > a img{
+.menu ul li > a img {
     padding-right: 1rem;
 }
 
