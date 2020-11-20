@@ -20,6 +20,8 @@ main {
 
 .text-home p {
     font-size: 2rem;
+    text-align: justify;
+    color: #474a4d;
 }
 
 .imagem-home {

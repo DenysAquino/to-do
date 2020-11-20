@@ -1,4 +1,3 @@
-
 let loginEmail = document.querySelector('#input-email');
 let loginSenha = document.querySelector('#input-password');
 let botaoEnviar = document.querySelector('#botao-enviar');

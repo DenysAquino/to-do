@@ -23,13 +23,14 @@
             <h2>Lista de Compras</h2>
             <div class="geral-lista">
                 <div class="input-btn">
-                    <input type="text" id="add-produto" placeholder="Digite o produto" maxlength="30">
+                    <input type="text" id="add-produto" placeholder="Digite o produto" maxlength="30" autofocus>
                     <input type="number" id="add-quantidade" placeholder="Qtd">
                     <select name="tipo" id="add-tipo">
                         <option value="Und">UND</option>
                         <option value="KG">KG</option>
-                        <option value="saco">SC</option>
+                        <option value="SC">SC</option>
                         <option value="PCT">PCT</option>
+                        <option value="CX">CX</option>
                     </select>
                     <div class="btn-adicionar">
                         <button class="adicionar">+</button>
@@ -50,8 +51,8 @@
                     </div>
                 </table>
                 <p class="total">Total: </p>
-                <button class="save-list">Salvar Lista</button>
-                
+                <button type="submit" class="save-list">Salvar Lista.</button>
+
             </div>
         </section>
     </main>

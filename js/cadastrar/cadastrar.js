@@ -4,9 +4,9 @@ const senha = document.querySelector('#input-cadastro-password');
 const btnCadastrar = document.querySelector('#botao-cadastrar');
 const nome = document.querySelector('#input-cadastro-name')
 
-export const cadastros =  [];
+const saveCadastro =  [];
 
-btnCadastrar.addEventListener('click', (e)=>{
+btnCadastrar.addEventListener('click', ()=>{
     
     let nameDigitado = nome.value
     let emailDigitado = email.value;
@@ -17,11 +17,11 @@ btnCadastrar.addEventListener('click', (e)=>{
     // setTimeout(()=>{
     //     window.location.href = "login.html"
     // }, 500)
-})
+});
 
 function salvarCadastro (name, email, password){
 
     let user = {name, email, password}
-    cadastros.push(user);
-    console.log(cadastros)
+    saveCadastro.push(user);
+    console.log(saveCadastro)
 }

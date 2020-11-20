@@ -28,7 +28,6 @@ botaoAdicionar.addEventListener('click', ()=>{
     // pCount.innerHTML = convidados.length;
 
     for(let i = 0; i < convidados.length; i++){
-        console.log(convidados)
         pCount.innerHTML = convidados.length;
     }
     

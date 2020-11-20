@@ -19,7 +19,7 @@ function criaHeader() {
         <ul>
             <li class="link-login-home">
                 <a href="index.html" class="animation-menu">Home</a>| 
-                <a href="login.html" class="animation-menu">Login</a>| 
+                <a class="animation-menu">Login</a>| 
                 <a href="#" class="animation-menu">Help</a>
             </li>
             <li><a href="listaDeCompras.html" class="animation-menu">Lista de compras</a></li>
