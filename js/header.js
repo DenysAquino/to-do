@@ -22,9 +22,9 @@ function criaHeader() {
                 <a class="animation-menu">Login</a>| 
                 <a href="#" class="animation-menu">Help</a>
             </li>
-            <li><a href="listaDeCompras.html" class="animation-menu">Lista de compras</a></li>
-            <li><a href="listadeconvidados.html" class="animation-menu">Lista de convidados</a></li>
-            <li><a href="listaDeEstudos.html" class="animation-menu">Lista de estudos</a></li>
+            <li><a href="listaDeCompras.html" class="animation-menu"><img src="img/icon-list.png">Lista de compras</a></li>
+            <li><a href="listadeconvidados.html" class="animation-menu"><img src="img/icon-list.png">Lista de convidados</a></li>
+            <li><a href="listaDeEstudos.html" class="animation-menu"><img src="img/icon-list.png">Lista de estudos</a></li>
         </ul>
     </nav>
     `

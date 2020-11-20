@@ -36,6 +36,10 @@ header {
     background-color: #152f3e;
 }
 
+header .icon {
+    color: aliceblue;
+}
+
 main {
     width: 100%;
 
@@ -95,6 +99,7 @@ select{
  :-ms-input-placeholder {  
     color: #333333b4;  
 }
+
 
 table {
     width: 100%;

@@ -43,14 +43,19 @@
 }
 
 .menu ul > li{
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
     font-size: 2rem;
     color: aliceblue;
 }
 
+.menu ul > li > a img{
+    padding-right: 1rem;
+}
+
 .link-login-home{
-    display: inline-flex;
-    width: 50%;
-    justify-content: space-evenly;
+    width: 100%;
 }
 
 .link-login-home a{
@@ -75,3 +80,4 @@
     text-decoration: underline;
     color: #00a7c4;
 }
+
