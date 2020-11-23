@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 90%;
     z-index: 2;
 }
 
@@ -50,12 +49,13 @@
     color: aliceblue;
 }
 
-.menu ul li > a img {
+.link-icon img{
     padding-right: 1rem;
 }
 
 .link-login-home{
     width: 100%;
+    max-width: 600px;
 }
 
 .link-login-home a{
@@ -73,11 +73,10 @@
     text-decoration: none;
     cursor: pointer;
     color: aliceblue;
-    transition: font-size .3s ease-out;
+    transition: all .5s ease-out;
 }
 
 .animation-menu:hover {
     text-decoration: underline;
     color: #00a7c4;
 }
-

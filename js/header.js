@@ -20,11 +20,11 @@ function criaHeader() {
             <li class="link-login-home">
                 <a href="index.html" class="animation-menu">Home</a>| 
                 <a class="animation-menu">Login</a>| 
-                <a href="#" class="animation-menu">Help</a>
+                <a href="help.html" class="animation-menu" >Help</a>
             </li>
-            <li><a href="listaDeCompras.html" class="animation-menu"><img src="img/icon-list.png">Lista de compras</a></li>
-            <li><a href="listadeconvidados.html" class="animation-menu"><img src="img/icon-list.png">Lista de convidados</a></li>
-            <li><a href="listaDeEstudos.html" class="animation-menu"><img src="img/icon-list.png">Lista de estudos</a></li>
+            <li><a href="listaDeCompras.html" class="link-icon animation-menu"><img src="img/icon-list.png">Lista de compras</a></li>
+            <li><a href="listadeconvidados.html" class="link-icon animation-menu"><img src="img/icon-list.png">Lista de convidados</a></li>
+            <li><a href="listaDeEstudos.html" class="link-icon animation-menu"><img src="img/icon-list.png">Lista de estudos</a></li>
         </ul>
     </nav>
     `

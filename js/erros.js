@@ -5,7 +5,8 @@ const erros = {
     produto: 'Item digitado inválido!',
     quantidade: 'Quantidade digitada inválida!',
     produtoEQuantidade: 'Produto e quantidade Inválidos!',
-    convidado: 'Nome de convidado invállido!'
+    convidado: 'Nome de convidado invállido!',
+    estudo: 'Valor digitado inválido!'
 }
 
 

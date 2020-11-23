@@ -1,10 +1,16 @@
 .rodape {
-    background-color: #152f3e;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
 }
 
 .rodape h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: aliceblue;
     font-weight: 700;
+}
+
+.rodape > img {
+    width: 2.5rem;
 }

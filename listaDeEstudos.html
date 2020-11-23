@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hamburguer.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/listaDeEstudos.css/listaDeEstudos.css">
+    <link rel="stylesheet" href="css/listaDeEstudos.css/">
+    <link rel="stylesheet" href="css/listaDeEstudos/listaDeEstudos.css">
+    <link rel="stylesheet" href="css/mensagemDeErros.css">
     <title>Lista de Estudos</title>
 </head>
 <body>
@@ -15,15 +18,20 @@
 
     </header>
     <main>
-        <div class="box container">
+        <section class="box container">
             <h2>Lista de estudos</h2>
             <div class="inputs">
                 <input type="text" autofocus id="input-text" maxlength="30">
                 <input type="submit" value=">" id="input-botton">
             </div>
+            <div class="mensagem-erro">
+                <p class="p-erro">Valor inválido! </p>
+                <p class="fecha-paragrafo"><span class="fecha-mensagem">x</span></p>
+            </div>
             <div class="lista-estudos"></div>
-
-        </div>
+            <div class="total-estudos"></div>
+            <button class="save-list" onclick="window.print()">Salva/Imprimir PDF</button>
+        </section>
     </main>
     <footer>
 
@@ -32,7 +40,10 @@
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/footer.js"></script>
     <script type="text/javascript" src="js/abrirMenu.js"></script>
-    <script type="text/javascript" src="js/listaDeEstudos/listaDeEstudos.js"></script>
+    <script type="text/javascript" src="js/listaDeEstudos/index.js"></script>
+    <script type="text/javascript" src="js/listaDeEstudos/checkOrNot.js"></script>
+    <script type="text/javascript" src="js/listaDeEstudos/removeItem.js"></script>
+    <script type="text/javascript" src="js/erros.js"></script>
 
 </body>
 </html>

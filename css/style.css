@@ -12,13 +12,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(#97aeb3, #00a7c4) no-repeat;
-    color: aliceblue;
+    color: #f0f8ffc9;
     font-size: 2rem;
     height: 100%;
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color:#f5f5f5;
 }
 
 :root {
@@ -60,7 +58,7 @@ input {
     border-radius: 4px;
     padding: .5rem;
     margin: .5rem .5rem;
-    color: aliceblue;
+    color: #152f3e;
     background-color: #00a7c438;
     font-weight: 700;   
     text-align: center; 
@@ -71,7 +69,6 @@ input:focus {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom:  aliceblue 4px solid;
 }
 
 select{
@@ -112,7 +109,8 @@ th {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background: #152f3e;
     width: 100%;
 }
-
