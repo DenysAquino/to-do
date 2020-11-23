@@ -1,8 +1,8 @@
 //CheckOrNot P
 
 corpoDaLista.addEventListener('dblclick', (e) => {
+  
     const listaEstudosP = document.querySelectorAll('.elements-created-p');
-    const listaEstudoCheckbox = document.querySelectorAll('.elements-created-checkbox');
 
     for (let i = 0; i < listaEstudosP.length; i++) {
 

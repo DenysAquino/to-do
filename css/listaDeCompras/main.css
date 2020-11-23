@@ -40,7 +40,7 @@
     font-size: 2rem;
     color: aliceblue;
     background-color: green;
-    transition: .5s ease-out background, color;
+    transition: .5s ease-out background-color;
 }
 
 .adicionar:hover {
@@ -61,7 +61,7 @@
     border-radius: 50%;
     color: aliceblue;
     font-size: 1rem;
-    transition: .5s ease-in-out background;
+    transition: .5s ease-in-out background-color;
     cursor: pointer;
 }
 
