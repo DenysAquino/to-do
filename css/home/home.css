@@ -10,7 +10,6 @@ main {
 
 .text-home {
     margin: 0 auto;
-    color: aliceblue;
 }
 
 .text-home h2{
@@ -21,7 +20,6 @@ main {
 .text-home p {
     font-size: 2rem;
     text-align: justify;
-    color: #474a4d;
     line-height: 2;
 }
 

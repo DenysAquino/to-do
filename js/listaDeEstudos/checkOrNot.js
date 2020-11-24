@@ -20,7 +20,7 @@ corpoDaLista.addEventListener('click', (e) => {
                 return
             }else{
                 console.log('else')
-                listaDeEstudoP[i].style.color = '#152f3e';
+                listaDeEstudoP[i].style.color = '';
                 listaDeEstudoP[i].style.fontStyle = 'normal';
                 listaDeEstudoP[i].style.textDecoration = 'none'
                 checks[i].checked = false;

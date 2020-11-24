@@ -1,16 +1,44 @@
 .rodape {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    color:  #babec2;
+    padding: 2rem 0;
 }
 
-.rodape h3 {
-    font-size: 1.2rem;
+.rodape > h2 {
     color: aliceblue;
-    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0;
 }
 
-.rodape > img {
-    width: 2.5rem;
+.contact-footer {
+    display: flex;
+    padding-top: 2rem;
+    font-size: 1.6rem;
+   
+}
+
+.technologies-footer {
+    display: flex;
+    padding-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.rodape  img {
+    padding: 0 .5rem;
+    height: 1.5rem;
+}
+
+.rodape a {
+    color:  #babec2;
+    text-decoration: none;
+    transition: color .5s ease-out;
+}
+
+.rodape a:hover {
+    color: #00a7c4;
+    text-decoration: underline;
 }

@@ -16,6 +16,24 @@
     color: aliceblue;
 }
 
+.hamburguer-and-dark-mode{
+    display: flex;
+    align-items: center;
+}
+
+.light-mode {
+    cursor: pointer;
+    display: none;
+    padding-right: 2rem;
+    height: 2rem;
+}
+
+.dark-mode {
+    cursor: pointer;
+    padding-right: 2rem;
+    height: 1.5rem;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -63,6 +81,9 @@
     text-decoration: none;
 }
 
+.icon-home {
+    width: 2rem;
+}
 
 .fadeOut {
     opacity: 0;

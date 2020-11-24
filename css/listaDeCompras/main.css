@@ -70,11 +70,8 @@
 }
 
 .lista-produtos {
-
     width: 100%;  
     position: relative;  
-    color: #152f3e;
-
 }
 
 .produtos-list td {
@@ -84,7 +81,6 @@
 
 .total {
     margin: 3rem auto;
-    color: #152f3e;
 }
 
 .save-list {

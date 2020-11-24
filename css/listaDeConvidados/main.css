@@ -7,7 +7,6 @@
 
 .add-convidados {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -18,6 +17,7 @@
     width: 100%;
     max-width: 250px;
     font-size: 1.6rem;
+    margin-right: 2rem;
 }
 
 .btn-adicionar {
@@ -47,7 +47,6 @@
     align-items: center;
     width: 100%;
     margin: 1rem 0;
-    color: #152f3e;
 }
 
 .count-convidado {
@@ -69,7 +68,7 @@
     background-color: #bd2323;
     border-radius: 50%;
     color: aliceblue;
-    transition: .5s ease-in-out background;
+    transition: .5s ease-in-out background-color;
     cursor: pointer;
 }
 
@@ -79,7 +78,6 @@
 
 .total {
     margin: 3rem auto;
-    color:#152f3e;
 }
 
 .save-list {
@@ -104,5 +102,6 @@
 @media (max-width: 600px){
     .count-convidado {
         width: 10%;
+        
     }
 }

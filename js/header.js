@@ -8,17 +8,21 @@ function criaHeader() {
         <div>
             <h1><a href="index.html">Your Tasks</a></h1>
         </div>
-    
-        <div class="hamburguer">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
+        <div class="hamburguer-and-dark-mode">
+        <img src="img/moon-solid.png" class="dark-mode">
+        <img src="img/sun-solid.png" class="light-mode">
+            <div class="hamburguer">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
         </div>
+        
     </div>
     <nav class="menu">
         <ul>
             <li class="link-login-home">
-                <a href="index.html" class="animation-menu">Home</a>| 
+                <a href="index.html" class="animation-menu"><img src= "img/house-user-solid.svg" class="icon-home"> Home</a>| 
                 <a class="animation-menu">Login</a>| 
                 <a href="help.html" class="animation-menu" >Help</a>
             </li>

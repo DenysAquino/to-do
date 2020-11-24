@@ -1,0 +1,4 @@
+Dark mode.
+
+Background: #1b262c;
+Color: lightblue;
